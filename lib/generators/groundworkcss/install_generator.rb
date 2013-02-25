@@ -6,7 +6,7 @@ module Groundworkcss
     desc "This generator installs groundworkcss to Asset Pipeline"
 
     def add_assets
-      directory "groundwork_sub", "vendor/assets/groundwork"
+      directory "groundworkcss_sub", "vendor/assets/groundworkcss"
     end
 
   end
