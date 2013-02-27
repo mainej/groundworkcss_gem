@@ -10,6 +10,10 @@ module Groundworkcss
         directory "groundworkcss_sub/lib/assets/css", "app/assets/stylesheets/groundworkcss"
         directory "groundworkcss_sub/lib/assets/scss", "app/assets/stylesheets/groundworkcss"
         directory "groundworkcss_sub/lib/assets/js", "app/assets/javascripts/groundworkcss"
+        directory "groundworkcss_sub/lib/assets/coffee", "app/assets/javascripts/groundworkcss"
+        directory "groundworkcss_sub/lib/assets/images", "app/assets/images/groundworkcss"
+        directory "groundworkcss_sub/lib/assets/font", "public"
+        directory "groundworkcss_sub/lib/apple-icons", "public"
       else
         directory "groundworkcss_sub/lib/assets", "vendor/assets/groundworkcss"
       end
