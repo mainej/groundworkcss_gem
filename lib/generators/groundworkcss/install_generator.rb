@@ -7,10 +7,10 @@ module Groundworkcss
 
     def add_assets
       if ::Rails.version >= '3.1'
-        directory "groundworkcss_sub/lib/assets/css", "app/assets/stylesheets/groundworkcss"
-        directory "groundworkcss_sub/lib/assets/js", "app/assets/javascripts/groundworkcss"
+        directory "lib/groundworkcss_sub/lib/assets/css", "app/assets/stylesheets/groundworkcss"
+        directory "lib/groundworkcss_sub/lib/assets/js", "app/assets/javascripts/groundworkcss"
       else
-        directory "groundworkcss_sub/lib/assets", "vendor/assets/groundworkcss"
+        directory "lib/groundworkcss_sub/lib/assets", "vendor/assets/groundworkcss"
       end
     end
 
